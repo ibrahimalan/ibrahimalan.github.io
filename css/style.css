@@ -1,6 +1,5 @@
-
 *{
-		box-sizing: border-box;
+	box-sizing: border-box;
 }
 body{
 	margin:0;
@@ -37,7 +36,7 @@ a:hover{
 	padding:25px;
 	margin-top:10vh;
 	text-align:center;
-        background-color:#0B2F3A;
+	background-color:#0B2F3A;
 }
 #quick_card #photo{
 	height:80px;
@@ -60,8 +59,8 @@ a:hover{
 	position:relative;
 	padding:15px 32px 8px 32px;
 	margin-top:22px;
-        margin-bottom:40px;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	margin-bottom:40px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   	transition: all 0.2s ease-in-out;
 }
 #about_card:hover {
@@ -73,7 +72,7 @@ a:hover{
 }
 #about_card>.tab>.title{
 	font-size:16px;
-	color:#086A87; 
+	color:#086A87;
 }
 .title i{
 	position:relative;
@@ -108,7 +107,7 @@ hr{
 	padding:15px 30px 15px 30px;
 	margin-top:22px;
 	margin-bottom:22px;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   	transition: all 0.2s ease-in-out;
 }
 #contact_card:hover {
@@ -125,7 +124,7 @@ hr{
 #contact_card>.tab>.content{
 	padding-top:10px;
 	text-align:center;
-        line-height: 2; 
+	line-height: 2;
 }
 #contact_card>.tab>.content>.contacts{
 	margin:0 20px 0 20px;
@@ -135,7 +134,7 @@ hr{
 }
 #contact_card a{
 	color:#616161;
-	text-decoration:none; 
+	text-decoration:none;
 }
 #contact_card a:hover{
 	color:#9E9E9E;
@@ -146,10 +145,10 @@ hr{
 	height:60px;
 	line-height: 60px;
 	text-align:center;
-	background-color:#0B2F3A; 
+	background-color:#0B2F3A;
 	border-radius:99px;
 	box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.19), 0 2px 6px 0 rgba(0, 0, 0, 0.2);
-        transition: all 0.2s ease-in-out;
+  	transition: all 0.2s ease-in-out;
 }
 #fab i{
 	color:#fff;

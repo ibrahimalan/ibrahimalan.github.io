@@ -148,7 +148,7 @@ hr{
 	text-align:center;
 	background-color:#0B2F3A; 
 	border-radius:99px;
-	box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.19), 0 2px 6px 0 rgba(0, 0, 0, 0.24);
+	box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.19), 0 2px 6px 0 rgba(0, 0, 0, 0.2);
         transition: all 0.2s ease-in-out;
 }
 #fab:hover {

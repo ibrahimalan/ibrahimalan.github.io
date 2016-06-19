@@ -2,64 +2,112 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>İbrahim Alan</title>
-	<link rel="shortcut icon" href="img/photo.png">
-	<link href="css/style.css" rel="stylesheet" type="text/css">
-	<link href='https://fonts.googleapis.com/css?family=Cuprum' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<meta name="description" content="Alan's website">
-	<meta name="author" content="İbrahim Alan">
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-	<meta name="theme-color" content="#0B4C5F">
+ 
+<meta charset="UTF-8">
+<title>İbrahim Alan</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="css/materialize.min.css" type="text/css" media="screen,projection"/>
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+<link rel="shortcut icon" href="photo/photo.png">
+<link rel="stylesheet" href="css/main.css" type="text/css">
+<meta name="author" content="İbrahim Alan">
+<meta name="description" content="İbrahim's personal website.">
+<meta name="theme-color" content="#607D8B">
 </head>
 <body>
-<div id="blue_bg"></div>
+ 
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<div id="material-band"></div>
 <header>
-	<div id="quick_card" class="card">
-		<div><img id="photo" src="img/photo.png" /></div>
-		<h1 id="name">İbrahim Alan</h1>
-		<h2 id="description"></h2>
-	</div>
+<div class="container">
+ 
+<div class="row">
+<div class="col s12 m6 offset-m3">
+<div class="card" id="name_card">
+<div class="card-content">
+<div><img src="photo/photo.png" id="photo"></div>
+<span id="name" class="card-title offset-m3">İbrahim Alan</span>
+<h6 id="description"></h6>
+</div>
+</div>
+</div>
+</div>
+ 
+<div class="row">
+<div class="col s12 m6 offset-m3">
+<div class="card" id="social_card">
+<div class="center-align">
+<a class="waves-effect waves-effect btn-flat button" href="https://plus.google.com/u/0/113266962160852855895/posts" target="_blank">
+<i class="fa fa-google-plus"></i>&nbsp;Google+
+</a>
+<a class="waves-effect waves-effect btn-flat button" href="https://github.com/ibrahimalan" target="_blank">
+<i class="fa fa-github"></i>&nbsp;GitHub
+</a>
+<a class="waves-effect waves-effect btn-flat button" href="https://instagram.com/alan.yezder/" target="_blank">
+<i class="fa fa-instagram"></i>&nbsp;Instagram
+</a>
+<a class="waves-effect waves-effect btn-flat button" href="https://keybase.io/ibrahimalan" target="_blank">
+<i class="fa fa-key"></i>&nbsp;Keybase
+</a>
+<a class="waves-effect waves-effect btn-flat button" href="http://last.fm/tr/user/Yezder" target="_blank">
+<i class="fa fa-lastfm"></i>&nbsp;Last.fm
+</a>
+<a class="waves-effect waves-effect btn-flat button" href="https://reddit.com/user/Ploverc/" target="_blank">
+<i class="fa fa-reddit"></i>&nbsp;Reddit
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
 </header>
 <main>
+<div class="container">
+<div class="row">
+<div class="col s12 m6 offset-m3">
+<ul class="collapsible" data-collapsible="accordion" id="about_card">
+<li>
+<div class="collapsible-header">
+<i class="material-icons">info</i>About
 </div>
-
-<div id="contact_card" class="card">
-	<section class="tab">		
-		<div class="content">			
-			<div class="contacts"><a href="https://github.com/ibrahimalan" target="_blank"><i class="fa fa-github"></i>&nbsp; GitHub</a></div>
-			<div class="contacts"><a href="https://plus.google.com/u/0/113266962160852855895/posts" target="_blank"><i class="fa fa-google-plus"></i>&nbsp; Google+</a></div>
-		        <div class="contacts"><a href="https://instagram.com/alan.yezder/" target="_blank"><i class="fa fa-instagram"></i>&nbsp; Instagram</a></div>
-			<div class="contacts"><a href="https://keybase.io/ibrahimalan" target="_blank"><i class="fa fa-key"></i>&nbsp; Keybase</a></div>
-			<div class="contacts"><a href="http://last.fm/tr/user/Yezder" target="_blank"><i class="fa fa-lastfm"></i>&nbsp; Last.fm</a></div> 
-			<div class="contacts"><a href="https://reddit.com/user/Ploverc/" target="_blank"><i class="fa fa-reddit"></i>&nbsp; Reddit</a></div>
-			<div class="contacts"><a href="https://telegram.me/ibrahimalan" target="_blank"><i class="fa fa-paper-plane"></i>&nbsp; Telegram</a></div>
-		</div>
-	</section>
+<div class="collapsible-body"><p></p></div>
+</li>
+<li>
+<div class="collapsible-header">
+<i class="material-icons">done</i>Skills
 </div>
-  <div id="about_card" class="card">
-    <section class="tab">
-		<div class="title"><i class="fa fa-graduation-cap"></i>Education</div>
-		<div class="content">		
-				<div class="name">Bahçeşehir University</div>
-		</div>
-	</section>
-	<section class="tab">
-		<div class="title"><i class="fa fa-suitcase"></i>My Major</div>
-		<div class="content">
-            <div class="name">Computer Engineer</div>
-		</div>
-	</section>		
-	<section class="tab">
-		<div class="title"><i class="fa fa-tachometer"></i>Experience</div>
-		<div class="content">
-     		<div class="name">~</div>					
-		</div>
-	</section>
-</div>	
-<a href="mailto:yezders@gmail.com">
-	<div id="fab">&nbsp;<i class="fa fa-envelope"></i>&nbsp;</div>
+<div class="collapsible-body"><p></p></div>
+</li>
+<li>
+<div class="collapsible-header">
+<i class="material-icons">work</i>Works
+</div>
+<div class="collapsible-body"><p></p></div>
+</li>
+<li>
+<div class="collapsible-header">
+<i class="material-icons">email</i>Contact
+</div>
+<div class="collapsible-body center-align"><p>
+<a class="waves-effect waves-effect btn-flat button" href="mailto:me@ibralan.com" target="_blank">
+<i class="fa fa-envelope"></i>&nbsp;E-mail
 </a>
+<a class="waves-effect waves-effect btn-flat button" href="https://telegram.me/ibrahimalan" target="_blank">
+<i class="fa fa-paper-plane"></i>&nbsp;Telegram
+</a>
+</a>
+</p></div>
+</li>
+</ul>
+</div>
+</div>
+</div>
 </main>
-</body>
+<footer>
+<small>Design by Kutsan, 2016.</small>
+</footer>
+<script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
 </html>
+
